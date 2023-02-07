@@ -1,0 +1,9 @@
+docker cp pais.sql   hopeful_ptolemy:/docker-entrypoint-initdb.d/pais.sql
+docker cp estado.sql hopeful_ptolemy:/docker-entrypoint-initdb.d/estado.sql
+docker cp cidade.sql hopeful_ptolemy:/docker-entrypoint-initdb.d/cidade.sql
+
+
+
+psql -h localhost -U postgres_user_city cities -f pais.sql
+psql -h localhost -U postgres_user_city cities -f estado.sql
+psql -h localhost -U postgres_user_city cities -f cidade.sql
