@@ -1,4 +1,4 @@
-package br.com.tts.diocidadesapi.diocityapi;
+package br.com.tts.diocidadesapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

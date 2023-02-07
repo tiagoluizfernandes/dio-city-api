@@ -1,4 +1,4 @@
-package br.com.tts.diocidadesapi.diocityapi;
+package br.com.tts.diocidadesapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
